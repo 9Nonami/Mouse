@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19afc978-a6ac-4253-a45f-2d53d53e78d5" name="Default Changelist" comment="" />
+    <list default="true" id="19afc978-a6ac-4253-a45f-2d53d53e78d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mouse/META-INF/Mouse.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mouse/META-INF/Mouse.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/component/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mouse/nona/mi/component/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/component/RectButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mouse/nona/mi/component/RectButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/scene/TestScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mouse/nona/mi/scene/TestScene.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nona/mi/component/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/component/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nona/mi/component/PolygonalButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/component/PolygonalButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nona/mi/component/RectButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/component/RectButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nona/mi/main/MyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/main/MyGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nona/mi/scene/TestScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/scene/TestScene.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UGPZqe063pr9SdnesYnWkvT1Bs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,6 +37,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -31,6 +48,18 @@
       <recent name="C:\Users\Mi\IdeaProjects\Mouse\src\nona\mi\loader" />
       <recent name="C:\Users\Mi\IdeaProjects\Mouse\src\nona\mi\main" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -52,18 +81,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -76,6 +93,17 @@
       <updated>1574980016310</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="317" y="93" key="#com.intellij.ide.util.MemberChooser" timestamp="1575588846490">

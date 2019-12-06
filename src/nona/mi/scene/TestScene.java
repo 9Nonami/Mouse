@@ -1,37 +1,42 @@
 package nona.mi.scene;
 
-import nona.mi.component.PolygonalButton;
-import nona.mi.component.RectButton;
-import nona.mi.loader.ImageLoader;
-import nona.mi.main.MyGame;
-
 import java.awt.Graphics;
+
+import nona.mi.component.Button;
+import nona.mi.main.MyGame;
 
 public class TestScene extends Scene {
 
-
-    private PolygonalButton polyButton;
+    private Button[] buttons;
 
     public TestScene(MyGame myGame) {
         super(myGame);
+    }
 
-        int[] x = {66, 205, 205, 66};
-        int[] y = {89, 26, 215, 278};
-        polyButton = new PolygonalButton(myGame, x, y);
-        polyButton.setImages(ImageLoader.loadImage("/res/stan0.png"), ImageLoader.loadImage("/res/focus0.png"), 60, 20);
-
+    public void setButtons(Button[] buttons) {
+        this.buttons = buttons;
     }
 
     @Override
     public void update() {
         super.update();
-        polyButton.update();
+
+        for (Button button : buttons) {
+            button.update();
+            if (button.isClicked()) {
+                myGame.changeScene(button.getNextScene());
+                button.reset();
+                break;
+            }
+        }
     }
 
     @Override
     public void render(Graphics g) {
         super.render(g);
-        polyButton.render(g);
+        for (Button button : buttons) {
+            button.render(g);
+        }
     }
 
 }
