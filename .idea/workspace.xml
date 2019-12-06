@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19afc978-a6ac-4253-a45f-2d53d53e78d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nona/mi/jukebox/JukeBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/res/click.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nona/mi/animatedcomponent/AnimatedComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/pri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/sec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/ter.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mouse/META-INF/Mouse.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mouse/META-INF/Mouse.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/component/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/component/Component.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/component/PolygonalButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/component/RectButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mouse/nona/mi/main/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/main/MyGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mouse/nona/mi/main/MyGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/scene/TestScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mouse/nona/mi/scene/TestScene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/scene/TestScene2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nona/mi/component/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/button/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nona/mi/component/Component.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nona/mi/component/PolygonalButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/button/PolygonalButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nona/mi/component/RectButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/button/RectButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nona/mi/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/main/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nona/mi/main/MyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/main/MyGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nona/mi/scene/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/scene/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nona/mi/scene/TestPolygonScene.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nona/mi/scene/TestScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/scene/TestScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nona/mi/scene/TestScene2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +30,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UGPZqe063pr9SdnesYnWkvT1Bs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/res" />
@@ -116,27 +111,30 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="317" y="93" key="#com.intellij.ide.util.MemberChooser" timestamp="1575588846490">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="317" y="93" key="#com.intellij.ide.util.MemberChooser/0.0.1024.728@0.0.1024.728" timestamp="1575588846490" />
-    <state width="981" height="222" key="GridCell.Tab.0.bottom" timestamp="1575623540086">
+    <state width="980" height="249" key="GridCell.Tab.0.bottom" timestamp="1575659042966">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="222" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1575623540086" />
-    <state width="981" height="222" key="GridCell.Tab.0.center" timestamp="1575623540086">
+    <state width="980" height="249" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1575659042966" />
+    <state width="980" height="249" key="GridCell.Tab.0.center" timestamp="1575659042966">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="222" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1575623540086" />
-    <state width="981" height="222" key="GridCell.Tab.0.left" timestamp="1575623540086">
+    <state width="980" height="249" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1575659042966" />
+    <state width="980" height="249" key="GridCell.Tab.0.left" timestamp="1575659042966">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="222" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1575623540086" />
-    <state width="981" height="222" key="GridCell.Tab.0.right" timestamp="1575623540086">
+    <state width="980" height="249" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1575659042966" />
+    <state width="980" height="249" key="GridCell.Tab.0.right" timestamp="1575659042966">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="981" height="222" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1575623540086" />
+    <state width="980" height="249" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1575659042966" />
     <state width="981" height="222" key="GridCell.Tab.1.bottom" timestamp="1575311419848">
       <screen x="0" y="0" width="1024" height="728" />
     </state>

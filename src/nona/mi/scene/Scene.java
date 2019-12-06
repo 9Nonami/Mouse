@@ -2,9 +2,9 @@ package nona.mi.scene;
 
 import nona.mi.main.MyGame;
 
-import java.awt.*;
+import java.awt.Graphics;
 
-public class Scene {
+public abstract class Scene {
 
     protected MyGame myGame;
 

@@ -1,5 +1,6 @@
 package nona.mi.main;
 
+import nona.mi.animatedcomponent.AnimatedComponent;
 import nona.mi.button.Button;
 import nona.mi.button.PolygonalButton;
 import nona.mi.button.RectButton;
@@ -43,6 +44,15 @@ public class MyGame extends Game {
         buttonsScene0[1] = polyButton;
 
         scene0.setButtons(buttonsScene0);
+
+        AnimatedComponent[] components = new AnimatedComponent[1];
+        AnimatedComponent ac = new AnimatedComponent(this);
+        BufferedImage[] componentImages = {ImageLoader.loadImage("/res/pri.png"), ImageLoader.loadImage("/res/sec.png"), ImageLoader.loadImage("/res/ter.png")};
+        ac.setImages(componentImages, 400, 400, 0.2f);
+        components[0] = ac;
+
+        scene0.setAnimatedComponents(components);
+
         packBasis.put(0, scene0);
 
         //------------------------------------------------------------------------
