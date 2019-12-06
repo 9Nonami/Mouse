@@ -1,8 +1,8 @@
 package nona.mi.main;
 
-import nona.mi.component.Button;
-import nona.mi.component.PolygonalButton;
-import nona.mi.component.RectButton;
+import nona.mi.button.Button;
+import nona.mi.button.PolygonalButton;
+import nona.mi.button.RectButton;
 import nona.mi.loader.ImageLoader;
 import nona.mi.scene.Scene;
 import nona.mi.scene.ScenePackage;
@@ -17,6 +17,7 @@ public class MyGame extends Game {
     private Scene sceneBasis;
     private ScenePackage packBasis;
     private int scene;
+
 
     public MyGame(int width, int height, String title, int gameLoopStyle) {
 
@@ -50,13 +51,16 @@ public class MyGame extends Game {
         Button[] buttonsScene1 = new Button[1];
 
         RectButton rectButton2 = new RectButton(this, 0);
-        rectButton2.setImages(uno, dos, 100, 100);
+        rectButton2.setImages(uno, dos, 300, 100);
         buttonsScene1[0] = rectButton2;
 
         scene1.setButtons(buttonsScene1);
         packBasis.put(1, scene1);
 
         //------------------------------------------------------------------------
+
+        //path, key
+        jukeBox.load(Button.AUDIO_PATH, Button.AUDIO_CLICK);
 
         scene = 0;
         sceneBasis = packBasis.get(scene);

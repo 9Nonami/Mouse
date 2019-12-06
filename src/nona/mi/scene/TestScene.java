@@ -2,7 +2,7 @@ package nona.mi.scene;
 
 import java.awt.Graphics;
 
-import nona.mi.component.Button;
+import nona.mi.button.Button;
 import nona.mi.main.MyGame;
 
 public class TestScene extends Scene {

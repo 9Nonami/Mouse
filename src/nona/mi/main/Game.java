@@ -1,5 +1,7 @@
 package nona.mi.main;
 
+import nona.mi.jukebox.JukeBox;
+
 import javax.swing.JFrame;
 import java.awt.Graphics;
 import java.awt.event.KeyEvent;
@@ -38,6 +40,9 @@ public abstract class Game implements Runnable, KeyListener, MouseListener, Mous
     private int mouseX;
     private int mouseY;
     private boolean mouseClicked;
+
+    protected JukeBox jukeBox;
+
 
     public Game(int width, int height, String title, int gameLoopStyle) {
 
@@ -83,6 +88,8 @@ public abstract class Game implements Runnable, KeyListener, MouseListener, Mous
         canvas.setFocusable(false);
         canvas.addMouseListener(this);
         canvas.addMouseMotionListener(this);
+
+        jukeBox = new JukeBox();
 
         t = new Thread(this);
     }
@@ -280,4 +287,9 @@ public abstract class Game implements Runnable, KeyListener, MouseListener, Mous
     public void setMouseClicked(boolean mouseClicked) {
         this.mouseClicked = mouseClicked;
     }
+
+    public JukeBox getJukeBox() {
+        return jukeBox;
+    }
+
 }

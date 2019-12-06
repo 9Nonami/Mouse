@@ -1,4 +1,4 @@
-package nona.mi.component;
+package nona.mi.button;
 
 import nona.mi.main.Game;
 
