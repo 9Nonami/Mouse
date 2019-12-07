@@ -16,9 +16,8 @@ public abstract class Button {
     protected BufferedImage focusedImage;
     protected int imageX;
     protected int imageY;
+    protected String audioName;
     private boolean lockAudio;
-    public static final String AUDIO_CLICK = "ss";
-    public static final String AUDIO_PATH = "/res/click.wav";
 
 
     public Button(Game game, int nextScene) {
@@ -38,8 +37,8 @@ public abstract class Button {
             focused = true;
             if (!lockAudio) {
                 lockAudio = true;
-                if (!game.getJukeBox().isPlaying(AUDIO_CLICK)) {
-                    game.getJukeBox().play(AUDIO_CLICK);
+                if (!game.getJukeBox().isPlaying(audioName)) {
+                    game.getJukeBox().play(audioName);
                 }
             }
             if (game.isMouseClicked()) {
@@ -75,6 +74,15 @@ public abstract class Button {
 
     public int getNextScene() {
         return nextScene;
+    }
+
+    public void defineAudio(String audioPath, String audioName) {
+        this.audioName = audioName;
+        game.getJukeBox().load(audioPath, audioName);
+    }
+
+    public void setAudioName(String audioName) {
+        this.audioName = audioName;
     }
 
 }
