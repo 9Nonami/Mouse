@@ -16,6 +16,8 @@ public class AnimatedComponent {
     private float id;
     private boolean animating;
     private Game game;
+    private String audioPath;
+    private String audioName;
 
 
     public AnimatedComponent(Game game) {
@@ -32,9 +34,17 @@ public class AnimatedComponent {
         height = images[0].getHeight();
     }
 
+    public void defineAudio(String audioPath, String audioName) {
+        this.audioPath = audioPath;
+        this.audioName = audioName;
+    }
+
     public void update() {
-        if (isMouseOnComponent() && isComponentClicked() && !animating) {
+        if (isMouseOnComponent() && isComponentClicked() && !animating && !game.getJukeBox().isPlaying(audioName)) {
             animating = true;
+            if (!game.getJukeBox().isPlaying(audioName)) {
+                game.getJukeBox().play(audioName);
+            }
         }
         if (animating) {
             id += speed;
@@ -59,9 +69,20 @@ public class AnimatedComponent {
         g.drawImage(images[(int)id], x, y, null);
     }
 
+    public String getAudioName() {
+        return audioName;
+    }
+
+    public String getAudioPath() {
+        return audioPath;
+    }
+
     public void reset() {
         animating = false;
         id = 0;
+        if (game.getJukeBox().isPlaying(audioName)) {
+            game.getJukeBox().stop(audioName);
+        }
     }
 
 }

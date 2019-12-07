@@ -8,6 +8,7 @@ import nona.mi.loader.ImageLoader;
 import nona.mi.scene.Scene;
 import nona.mi.scene.ScenePackage;
 import nona.mi.scene.TestScene;
+import nona.mi.spritesheet.SpriteSheet;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -45,10 +46,13 @@ public class MyGame extends Game {
 
         scene0.setButtons(buttonsScene0);
 
+        //http://opengameart.org/content/lpc-sara
+        //http://opengameart.org/content/sara-wizard
         AnimatedComponent[] components = new AnimatedComponent[1];
         AnimatedComponent ac = new AnimatedComponent(this);
-        BufferedImage[] componentImages = {ImageLoader.loadImage("/res/pri.png"), ImageLoader.loadImage("/res/sec.png"), ImageLoader.loadImage("/res/ter.png")};
-        ac.setImages(componentImages, 400, 400, 0.2f);
+        BufferedImage[] componentImages2 = SpriteSheet.getSprites("/res/spritesheet.png", 18 * 64, 64, 64, 13);
+        ac.setImages(componentImages2, 400, 400, 1f);
+        ac.defineAudio("/res/attack_2.wav", "click");
         components[0] = ac;
 
         scene0.setAnimatedComponents(components);
@@ -71,6 +75,7 @@ public class MyGame extends Game {
 
         //path, key
         jukeBox.load(Button.AUDIO_PATH, Button.AUDIO_CLICK);
+        jukeBox.load(ac.getAudioPath(), ac.getAudioName());
 
         scene = 0;
         sceneBasis = packBasis.get(scene);
