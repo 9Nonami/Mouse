@@ -52,7 +52,7 @@ public class MyGame extends Game {
         AnimatedComponent ac = new AnimatedComponent(this);
         BufferedImage[] componentImages2 = SpriteSheet.getSprites("/res/spritesheet.png", 18 * 64, 64, 64, 13);
         ac.setImages(componentImages2, 400, 400, 1f);
-        ac.defineAudio("/res/attack_2.wav", "click");
+        ac.defineAudio("/res/click.wav", "click");
         components[0] = ac;
 
         scene0.setAnimatedComponents(components);
