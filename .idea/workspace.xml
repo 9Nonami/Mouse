@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19afc978-a6ac-4253-a45f-2d53d53e78d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/nona/mi/button/AnimatedRectButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/SPRITESHEET-CREDITS.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mouse/META-INF/Mouse.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mouse/META-INF/Mouse.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/animatedcomponent/AnimatedComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mouse/nona/mi/animatedcomponent/AnimatedComponent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/button/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mouse/nona/mi/button/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/button/RectButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mouse/nona/mi/button/RectButton.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Mouse/nona/mi/main/MyGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mouse/nona/mi/main/MyGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nona/mi/animatedcomponent/AnimatedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/animatedcomponent/AnimatedComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mouse/res/SPRITE-CREDITS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mouse/res/pri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mouse/res/sec.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mouse/res/ter.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nona/mi/button/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/button/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nona/mi/button/RectButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/button/RectButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nona/mi/main/MyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nona/mi/main/MyGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/SPRITE-CREDITS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/pri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/sec.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/ter.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

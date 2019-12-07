@@ -1,6 +1,7 @@
 package nona.mi.main;
 
 import nona.mi.animatedcomponent.AnimatedComponent;
+import nona.mi.button.AnimatedRectButton;
 import nona.mi.button.Button;
 import nona.mi.button.PolygonalButton;
 import nona.mi.button.RectButton;
@@ -69,12 +70,17 @@ public class MyGame extends Game {
         //------------------------------------------------------------------------
 
         TestScene scene1 = new TestScene(this);
-        Button[] buttonsScene1 = new Button[1];
+        Button[] buttonsScene1 = new Button[2];
 
         RectButton rectButton2 = new RectButton(this, 0);
         rectButton2.setImages(uno, dos, 300, 100);
         rectButton2.setAudioName(audioClickName);
         buttonsScene1[0] = rectButton2;
+
+        AnimatedRectButton arb = new AnimatedRectButton(this, 0);
+        arb.setImages(componentImages2, 10, 10, 0.2f);
+        arb.setAudioName(audioClickName);
+        buttonsScene1[1] = arb;
 
         scene1.setButtons(buttonsScene1);
         packBasis.put(1, scene1);

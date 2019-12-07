@@ -17,7 +17,7 @@ public abstract class Button {
     protected int imageX;
     protected int imageY;
     protected String audioName;
-    private boolean lockAudio;
+    protected boolean lockAudio;
 
 
     public Button(Game game, int nextScene) {

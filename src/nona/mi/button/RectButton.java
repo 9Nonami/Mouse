@@ -4,7 +4,6 @@ import nona.mi.main.Game;
 
 import java.awt.Color;
 import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
 public class RectButton extends Button {
@@ -27,9 +26,8 @@ public class RectButton extends Button {
     @Override
     public void render(Graphics g) {
         if (showMask) {
-            Graphics2D g2d = (Graphics2D) g;
-            g2d.setColor(Color.BLUE);
-            g2d.fillRect(imageX, imageY, imageWidth, imageHeight);
+            g.setColor(Color.BLUE);
+            g.fillRect(imageX, imageY, imageWidth, imageHeight);
         }
         g.drawImage(standardImage, imageX, imageY, null);
         if (focused) {
